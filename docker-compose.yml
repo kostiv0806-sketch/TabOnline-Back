@@ -1,0 +1,16 @@
+
+
+services:
+  db:
+    image: postgres:15
+    container_name: guitarpro-db
+    environment:
+      POSTGRES_DB: guitarpro_db
+      POSTGRES_USER: gp_user
+      POSTGRES_PASSWORD: gp_pass
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
