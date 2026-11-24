@@ -1,4 +1,4 @@
-package com.pelmeni.backend.com.example.guitarpro.config
+package com.example.guitarpro.config
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.web.servlet.config.annotation.CorsRegistry
